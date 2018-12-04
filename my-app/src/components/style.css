@@ -1,0 +1,22 @@
+.hello-block{
+    margin:0 auto;
+    width: 500px;
+    background-color: #687dc9;
+    border: 1px white solid;
+}
+.input-name{
+    display: block;
+    height: 30px;;
+    padding-left: 10px;
+    margin: 20px auto;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.hello-string{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    font-weight: 900;
+    text-align: center;
+}
