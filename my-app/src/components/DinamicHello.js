@@ -16,8 +16,8 @@ class  DinamicHello  extends Component {
         );
     };
     
-    handleNameChange = () =>{
-        var  valName = document.getElementById('inputName').value;
+    handleNameChange = (e) =>{
+        var  valName = e.currenTarget.value ;// document.getElementById('inputName').value;
       
         var helloString;
         if (valName) {
